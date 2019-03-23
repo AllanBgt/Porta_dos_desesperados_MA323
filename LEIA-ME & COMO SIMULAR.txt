@@ -1,0 +1,28 @@
+# Porta_dos_desesperados_MA323
+
+Grupo:
+  Allan Borgato - RA: 165416
+  Bruno Eduardo - RA:195052
+
+  MA323 - Turma B
+
+COMO SIMULAR:
+  Nesta pasta estão os arquivos da tarefa "Porta dos desesperados".
+  O arquivo "PortaDosDesesperados.py" é o código escrito em python 3.
+  O arquivo "PortaDosDesesperados.ipynb" é o arquivo para o ambiente Jupyter.
+  
+  1. Abra seu Jupyter Notebook.
+  2. Localize, usando o Jupyter Notebook em seu navegador, o arquivo "PortaDosDesesperados.ipynb" baixado deste repositório.
+  3. Clique sobre seu nome para abrí-lo.
+  
+  Estarão na tela duas simulações, uma cuja a resposta dada para a pergunta "Voce deseja trocar a porta escolhida?" foi "nao", e outra cuja a resposta foi "sim".
+  Em baixo de cada simulação estarão os gráficos de Proporção acumulada de vitórias x Tentativas.
+  
+Sobre o código:
+  Inicialmente a pergunta "Voce deseja trocar a porta escolhida?" é feita. Caso o jogador responda "nao", o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador não trocou de porta e nenhuma delas. Caso a resposta seja sim, o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador trocou de porta todas as vezes. 
+  O passo a passo que o código simula 100 vezes é:
+    1. O código cria uma lista com 3 prêmios possíveis: Ouro, cabra e cabra. Em seguida ele embaralha a lista e relaciona cada prêmio a uma porta através de um dicionário.
+    2. Em seguida, o código elimina uma das portas que contenham uma cabra como prêmio, e que não tenha sido a porta escolhida.
+    3. Após, ele leva em consideração se o jogador decidiu trocar de porta. 
+    4. Caso a resposta tenha sido "nao", ele escolhe como porta definitiva a porta escolhida inicialmente, e soma 1 no resultado de vitórias caso a porta definitiva tenha sido a que contenha ouro.
+    5. Caso a resposta tenha sido "sim", ele deleta a porta escolhida inicialmente e escolhe como porta definitiva a porta que restou, e soma 1 no resultado de vitórias caso a porta definitiva tenha sido a que contenha ouro.
