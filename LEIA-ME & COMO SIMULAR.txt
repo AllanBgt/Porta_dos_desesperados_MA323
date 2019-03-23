@@ -19,7 +19,7 @@ COMO SIMULAR:
   Em baixo de cada simulação estarão os gráficos de Proporção acumulada de vitórias x Tentativas.
   
 Sobre o código:
-  Inicialmente a pergunta "Voce deseja trocar a porta escolhida?" é feita. Caso o jogador responda "nao", o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador não trocou de porta e nenhuma delas. Caso a resposta seja sim, o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador trocou de porta todas as vezes. 
+  Inicialmente a pergunta "Voce deseja trocar a porta escolhida?" é feita. Caso o jogador responda "nao", o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador não trocou de porta em nenhuma delas. Caso a resposta seja sim, o código simulará 1000 vezes o passo a passo da Porta do desesperados, considerando que o jogador trocou de porta todas as vezes. 
   O passo a passo que o código simula 1000 vezes é:
     1. O código cria uma lista com 3 prêmios possíveis: Ouro, cabra e cabra. Em seguida ele embaralha a lista e relaciona cada prêmio a uma porta através de um dicionário.
     2. Em seguida, o código elimina uma das portas que contenham uma cabra como prêmio, e que não tenha sido a porta escolhida.
