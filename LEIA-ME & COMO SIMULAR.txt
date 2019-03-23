@@ -9,7 +9,7 @@ Grupo:
 COMO SIMULAR:
   Nesta pasta estão os arquivos da tarefa "Porta dos desesperados".
   O arquivo "PortaDosDesesperados.py" é o código escrito em python 3.
-  O arquivo "PortaDosDesesperados.ipynb" é o arquivo para o ambiente Jupyter.
+  O arquivo "PortaDosDesesperados.ipynb" é o arquivo para simulação no ambiente Jupyter.
   
   1. Abra seu Jupyter Notebook.
   2. Localize, usando o Jupyter Notebook em seu navegador, o arquivo "PortaDosDesesperados.ipynb" baixado deste repositório.
