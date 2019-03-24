@@ -2,8 +2,8 @@
 
 Grupo:
   Allan Borgato - RA: 165416
-  Bruno Eduardo - RA:195052
-
+  Bruno Eduardo Freire - RA:195052
+  Samuel Cardoso Zampolli Fraga -	RA: 205684
   MA323 - Turma B
 
 COMO SIMULAR:
